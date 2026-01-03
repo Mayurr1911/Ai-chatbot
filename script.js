@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     async function getAIResponse(userMessage) {
-        const apiKey = 'AIzaSyCT5DoZ8kI_zHjt5BM8VbuOsRUm7CJvoBY';
-        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
+        const apiKey = '';
+        const apiUrl = ``;
         try {
             const response = await fetch(apiUrl, {
                 method: 'POST',
@@ -70,3 +70,4 @@ document.addEventListener('DOMContentLoaded', function() {
             return 'Sorry, I encountered an error. Please try again later.';
         }
     }})
+
